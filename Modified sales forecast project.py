@@ -18,7 +18,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from io import StringIO
 
 
-df = pd.read_csv(C:/Projects/Walmart.csv/)
+df = pd.read_csv("C:/Projects/Walmart.csv/")
 
 # Preprocessing and feature engineering
 def preprocess_data(df):
