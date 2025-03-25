@@ -17,12 +17,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from io import StringIO
 
-# Load your data
-data_string = """Store,Date,Weekly_Sales,Holiday_Flag,Temperature,Fuel_Price,CPI,Unemployment
-1,05-02-2010,1643690.9,0,42.31,2.572,211.0963582,8.106
-[your full data here]
-45,26-10-2012,760281.43,0,58.85,3.882,192.3088989,8.667"""
-df = pd.read_csv(StringIO(data_string))
+
+df = pd.read_csv(C:/Projects/Walmart.csv/)
 
 # Preprocessing and feature engineering
 def preprocess_data(df):
